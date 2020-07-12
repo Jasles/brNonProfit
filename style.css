@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+    
+  
+
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+#head{
+    color:white;
+    text-decoration: none;
+    display: flex;
+  text-align: center;
+   font-size: 50px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.navlinks li{
+    list-style: none;
+    justify-content: space-around;
+}
+.navlinks a{
+    color:  rgb(111, 228, 193);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.burger{
+    display:none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+   
+
+}
+#headshot{
+    width:20%;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    margin-LEFT: 40%;
+    MARGIN-TOP: 5%;
+
+}
+p{
+    font-size: 20px;
+    display: flex;
+    align-items: end;
+    margin-LEFT: 40%;
+    MARGIN-TOP: 5%;
+}
+
+.headshot{
+    width: 30%;
+   margin-left: 35%;
+   margin-top: 50px;
+   border-radius: 50%;
+   border: 5px solid #080808;
+   
+}
+.bio{
+ font-size: larger;
+
+
+}
+
+.Header{
+    font-size: xx-large;
+    padding-left: 45%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    background-color: black;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 10px solid rgb(111, 228, 193);
+}
+
+.email{
+    width:8%;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+
+.contactlinks{
+    margin-left: 7%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.linkedin{
+    width:7%;
+    margin-left: 5%;
+    margin-top: -15px;
+  
+}
+
+#resumeview{
+    margin-left: 5%;
+    margin-bottom: 30px;
+    max-width: 90%;
+    border: 5px solid #080808;
+}
+
+#down{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(244, 102, 76);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800;
+    margin-left: 44%;
+    margin-top: 20px;
+    border: 5px solid #080808;
+    
+}
+
+.addskills{
+    font-size: 30px;
+    
+   margin-left: 5%;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+.addskill{
+    
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.skill{
+    margin-top: 5%;
+    font-size: 30px;
+   
+    text-align: center;
+    
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.instagram{
+    width:7%;
+    margin-left: 10%;
+    margin-top: -15px;
+}
+.github{
+    width:7%;
+    margin-left: 5%;
+    margin-top: -15px;
+}
+
+.da{
+  display:hidden;
+  
+  width:30%;
+  margin-top: 100px;
+  margin-left: 38%;
+
+}
+.ww{
+    margin-left: 38%;
+    width:30%;
+    margin-top: 100px;
+}
+
+.ml{
+    display:hidden;
+    margin-left: 38%;
+    width:25%;
+    margin-top: 100px;
+}
+.nl{
+    display:hidden;
+    margin-left: 38%;
+    width:30%;
+    margin-top: 10%;
+
+}
+
+.nldes{
+    margin-left: -10px;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+.dades{
+    margin-left: -10px;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+.wwdes{
+    margin-left: -10px;
+    margin-left: 25%;
+    margin-right: 20%;
+  
+}
+
+.mldes{
+        margin-left: -10px;
+        margin-left: 25%;
+        margin-right: 20%;
+        
+    }
+
+.wis{
+  font-size: 20px;
+  text-decoration: none;
+  color:black;
+   display: flex;
+  background-color: rgb(244, 102, 76);
+  width: 80px;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  border:3px solid #080808;
+  align-content: center;
+  margin-left: 50%;
+margin-top: 10px;
+color: white;
+   
+
+   
+   
+   
+ 
+}
+@media screen and (max-width:500px){
+    .navlinks{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:1200px){
+  body{
+        overflow-x: hidden;
+        
+  }
+  
+  
+
+    .navlinks{
+      
+       position: absolute;
+       right:0px;
+       height: 92vh;
+       top:8vh;
+       background-color: black;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       width:50%;
+       transform: translateX(100%);
+       transition: transform 0.5s ease-in;
+   }
+
+   .navlinks li{
+       opacity:1;
+
+   }
+   .burger{
+       display: block;
+   }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
